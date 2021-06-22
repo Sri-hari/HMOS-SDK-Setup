@@ -1,0 +1,10 @@
+name: 'Setup HMOS SDK Tools'
+author: 'Applib'
+description: 'Setup the HMOS SDK and add the local.properties file'
+
+runs:
+
+
+branding:
+  icon: 'list'
+  color: 'green'
