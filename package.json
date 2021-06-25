@@ -1,0 +1,24 @@
+{
+  "name": "HMOS-SDK-Setup",
+  "version": "1.0.0",
+  "description": "HarmonyOS SDK setup for GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sri-hari/HMOS-SDK-Setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sri-hari/HMOS-SDK-Setup/issues"
+  },
+  "homepage": "https://github.com/Sri-hari/HMOS-SDK-Setup#readme",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0"
+  }
+}

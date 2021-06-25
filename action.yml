@@ -1,10 +1,13 @@
-name: 'Setup HMOS SDK Tools'
-author: 'Applib'
-description: 'Setup the HMOS SDK and add the local.properties file'
-
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  who-to-greet:  # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
 runs:
-
-
-branding:
-  icon: 'list'
-  color: 'green'
+  using: 'node12'
+  main: 'index.js'
