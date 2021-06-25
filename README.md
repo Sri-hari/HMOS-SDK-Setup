@@ -4,10 +4,8 @@ HarmonyOS SDK setup for GitHub Actions
 
 ## Creating the Github Actions workflow.
 1) After repo is created and all the code is added. 
-   click on the Actions in github UI
-   ![image](https://user-images.githubusercontent.com/11833821/123408686-e78fc080-d5ca-11eb-8298-ddb5c004b713.png)
+   click on the Actions in github UI and select "set up a work flow yourself"
 
-2) click on 
    ![image](https://user-images.githubusercontent.com/11833821/123408783-08f0ac80-d5cb-11eb-9ff0-4c4d8e5faefe.png)
 
 3) Add the below code into the file
